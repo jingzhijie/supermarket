@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base_WXorange.css" />
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/public.js" ></script>
+		<script type="text/javascript" src="js/docassistant.js" ></script>
+		<script type="text/javascript" src="js/reqConfig.js" ></script>
+		
+		
+		<script type="text/javascript">
+			
+//			$(function(){
+//				console.log(window.location.href)
+//				$("#logon").on("click",function(){
+//		        	jumpUrl(goHref("http://business-workbench.qingtian.ygego.dev1/wanxiang/memberManage/curPub/html-www-gulp/loginIndex.html?jumpPath="+encodeURIComponent(window.location.href)),1,0)	
+//	            })
+//			
+//				
+//				if(jsonReqHeaderData.sid!=""){
+//				    getAjaxResult("/rest/api/26463/baseInfo", "POST",{}, "userinfo(data)");
+//				    $('.baseInfo').css({'display':'block'})
+//				    $('.loginBox').css({'display':'none'})
+//				    var urlCode = jsonReqHeaderData.sid;
+//					$(".daxing").on("click",function(){
+////						console.log(urlCode)
+//						jumpUrl('http://localhost:8051/static/project/subpage/html-www/productService.html?sid='+urlCode,1,0)
+//					})
+//				}
+////				setCookie("sid",sid,jsonReqHeaderData);
+//				
+//			})
+//			
+//			function userinfo (data) {
+//				
+//				var datas = JSON.parse(data)
+//				console.log(datas)
+//				$('#InfoBox').text(datas.rspBody.accountName)
+//			}
+//			$(function(){
+//					$("#register").on("click",function(){
+//		        	jumpUrl(goHref("http://business-workbench.qingtian.ygego.dev1/wanxiang/memberManage/curPub/html-www-gulp/userRegistered.html?jumpPath="+encodeURIComponent(window.location.href)),1,0)	
+//	         })
+//			})
+			
+		</script>
+	</head>
+	<body>
+		<div class="indexBox_head">
+				<div class="indexBox_head_logo fl" style="width: 172px;">
+					<a><img src="img/logo.png"/></a>
+				</div>
+				<div class="indexBox_head_nav fl">
+					<ul>
+						<li><a class="bb">首页</a></li>
+						<li class="pullDown">
+							<a class="bb">
+								<span id="">
+									产品与服务
+								</span>
+								<i class="icon iconfont ego-down_16px"></i>
+							</a>
+							<ul class="pullDownList">
+								<li><a class="bb daxing" href="javascript:;">大型物资设备交易平台</a></li>
+								<li><a class="bb">网格超市</a></li>
+								<li><a class="bb">在线质量数据银行</a></li>
+								<li><a class="bb">物料主数据门户</a></li>
+								<li><a class="bb">SAAS应用</a></li>
+								<li><a class="bb">供应链应用</a></li>
+							</ul>
+						</li>
+						<li><a class="bb">加盟入驻</a></li>
+						<li><a class="bb">关于我们</a></li>
+						<li class="appPullDown">
+							<a class="bb" href="javascript:;">
+								<span id="">
+									App下载
+								</span>
+								<i class="icon iconfont ego-down_16px"></i>
+							</a>
+							<ul class="appPullDownList">
+								<li><a class="bb">万象</a></li>
+								<li><a class="bb">阳光智库</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="indexBox_head_login loginBox fr" style="width: 7%;">
+					<a id="logon" style="margin-right: 25px;" href="javascript:;">登录</a>
+					<a id="register" href="javascript:;">注册</a>
+				</div>
+				<div class="indexBox_head_login baseInfo fr" style="color: orange; width: 7%;display: none;height: 100%;line-height: 90px;">
+					你好
+					<span id="InfoBox" style="color: #000000;">
+						
+					</span>
+				<div>
+			</div>
+			
+	</body>
+</html>

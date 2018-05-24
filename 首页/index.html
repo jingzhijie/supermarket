@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/base_WXorange.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/flexslider.css" />
+		<!--<link rel="stylesheet" href="css/headfoot.css" />-->
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/public.js" ></script>
+		<script type="text/javascript" src="js/docassistant.js" ></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js" ></script>
+		<script type="text/javascript" src="js/reqConfig.js" ></script>
+		<script type="text/javascript">
+//			$(function () {
+//			   getAjaxResult("/rest/api/25699/loginStatis", "POST",{}, "indexMethod(data)");			
+//			});
+//			function indexMethod (data) {
+//				var datas = JSON.parse(data)
+//				console.log(datas)
+//				$('#allNum').text(datas.rspBody.orderedCount)
+//				$('.indent').text(datas.rspBody.orderedAmount)
+//				$('.join').text(datas.rspBody.entryEntCount)
+//				$('.purchase').text(datas.rspBody.buyActivityCount)
+//				var join = datas.rspBody.entryEntCount; 
+//				var purchase = datas.rspBody.buyActivityCount;
+//				if (join == null || join ==="null") {
+//					$('.join').text(0);
+//				}
+//				if (join == null || join ==="null") {
+//					$('.purchase').text(0);
+//				}
+//			}
+//			$(function (){
+//				//进入超市
+//			  	$('.joinBox').on("click",function(){
+//			  		if(jsonReqHeaderData.sid){
+//			  			var url="http://mall-channel-desk.qingtian.ygego.dev1/channelfrontdesk/html-www/index.html?sid="+jsonReqHeaderData.sid;
+//			  		}else{
+//			  			var url="http://mall-channel-desk.qingtian.ygego.dev1/channelfrontdesk/html-www/index.html";
+//			  		}
+//			  		
+//		        	jumpUrl(goHref(url),1,0)	
+////		        	window.location.href ="http://mall-channel-desk.qingtian.ygego.alpha/channelfrontdesk/html-www/index.html?sid="+GetQueryString('sid');
+//	          });
+//		        	
+//			});
+//			$(function (){
+//				 //申请加盟
+//		       	$('.apply').on("click",function(){
+//		       		if(jsonReqHeaderData.sid){
+//		       			var url="http://mall-channel-desk.qingtian.ygego.dev1/channelfrontdesk/html-www/joinIn.html?sid="+jsonReqHeaderData.sid;
+//		       		}else{
+//		       			var url="http://mall-channel-desk.qingtian.ygego.dev1/channelfrontdesk/html-www/joinIn.html";
+//		       		}
+//			  		
+//		        	jumpUrl(goHref(url),1,0)
+//	          	})	
+//			});
+			
+			$(function() {
+			    $(".flexslider").flexslider({
+					slideshowSpeed: 4000, //展示时间间隔ms
+					animationSpeed: 400, //滚动时间ms
+					touch:true, //是否支持触屏滑动
+			    animation:"slide"//String: Select your animation type, "fade" or "slide"图片变换方式：淡入淡出或者滑动
+			    // animation 动画效果类型，有"fade"：淡入淡出，"slide"：滑动  "fade"（最后一项皆为默认值，下同）
+			    // easing  内容切换时缓动效果，需要jquery easing插件支持 "swing"
+			    // direction 内容滚动方向，有"horizontal"：水平方向 和"vertical"：垂直方向  "horizontal"
+			    // animationLoop 是否循环滚动  true
+			    // startAt 初始滑动时的起始位置，定位从第几个开始滑动 0
+			    // slideshow 是否自动滑动  true
+			    // slideshowSpeed  滑动内容展示时间(ms)  7000
+			    // animationSpeed  内容切换时间(ms)  600
+			    // initDelay 初始化时延时时间  0
+			    // pauseOnHover  鼠标滑向滚动内容时，是否暂停滚动  false
+			    // touch 是否支持触摸滑动  true
+			    // directionNav  是否显示左右方向箭头按钮  true
+			    // keyboard  是否支持键盘方向键操作 true
+			    // minItems  一次最少展示滑动内容的单元个数 1
+			    // maxItems  一次最多展示滑动内容的单元个数 0
+			    // move  一次滑动的单元个数 0
+			    // 回调函数  start: function(){}, 幻灯片开始前的回调
+			    // before: function(){},每个幻灯片开始前的回调
+			    // after: function(){}, 每个幻灯片结束后回调
+			    // end: function(){}, 幻灯片结束后的回调
+			    // added: function(){}, 幻灯片增加后的回调
+			    // removed: function(){}, 幻灯片删除后的回调
+			    // init: function(){}, 
+			    // sync
+			    // asNavFor
+				});
+			});	
+		</script>
+		<style type="text/css">
+			.flexslider{
+				height: 100%;
+			}
+			.flex-viewport{
+				height: 100%;
+			}
+			.flex-viewport .slides{
+				height: 100%;
+			}
+			.flex-viewport .slides li{
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="indexBox">
+			<div id="homepage-head">
+			
+			</div>
+			<div class="indexBox_content">
+				<div class="indexBox_content_lunBo" id="main">
+					<div class="flexslider">
+				  		<ul class="slides">
+				    		<li><img src="img/ttbg.png" /></li>
+				    		<li><img src="img/ttbg.png" /></li>
+				            <li><img src="img/ttbg.png" /></li>
+				            <li><img src="img/tt.png" /></li>
+				  		</ul>
+				   </div>
+				</div>
+				<div class="indexBox_content_data">
+					<div class="indexBox_content_data_left" style="width: 33%; padding-left: 0;">
+						<span id="word" style="margin-left: 16.83%;">
+							平台GMV
+						</span>
+						<span id="allNum">
+							43
+						</span>
+						<span id="unit">
+							元
+						</span>
+					</div>
+					<div class="indexBox_content_data_right" style="width: 67%;">
+						<ul style="width: 100%;">
+							<li class="pt20" style="float: left; width: 25%;margin-top: 5px;">
+								<div class="imgLeft fl" style="width: 50px;height: 50px;">
+									<img src="img/1dd.png" width="100%" height="100%"/>
+								</div>
+								<div class="describeRight ml10">
+									<div class="sWordTop">
+										订单量
+									</div>
+									<div class="sBottom">
+										<span id="sBottomSum" class="indent">
+											28613
+										</span>
+										<span id="sBottomUnit">
+											单
+										</span>
+									</div>
+								</div>
+							</li>
+							<li class="pt20" style="float: left; width: 25%;margin-top: 5px;">
+								<div class="imgLeft fl" style="width: 50px;height: 50px;">
+									<img src="img/2rz.png" width="100%" height="100%"/>
+								</div>
+								<div class="describeRight ml10">
+									<div class="sWordTop">
+										入驻供销商
+									</div>
+									<div class="sBottom">
+										<span id="sBottomSum" class="join">
+											0
+										</span>
+										<span id="sBottomUnit">
+											家
+										</span>
+									</div>
+								</div>
+							</li>
+							<li class="pt20" style="float: left; width: 25%;margin-top: 5px;">
+								<div class="imgLeft fl" style="width: 50px;height: 50px;">
+									<img src="img/3cg.png" width="100%" height="100%"/>
+								</div>
+								<div class="describeRight ml10">
+									<div class="sWordTop">
+										入驻采购商
+									</div>
+									<div class="sBottom">
+										<span id="sBottomSum" class="purchase">
+											0
+										</span>
+										<span id="sBottomUnit">
+											家
+										</span>
+									</div>
+								</div>
+							</li>
+							<li class="pt20" style="float: left; width: 25%;margin-top: 5px;">
+								<div class="imgLeft fl" style="width: 50px;height: 50px;">
+									<img src="img/4jm.png" width="100%" height="100%"/>
+								</div>
+								<div class="describeRight ml10">
+									<div class="sWordTop">
+										加盟企业
+									</div>
+									<div class="sBottom">
+										<span id="sBottomSum">
+											19
+										</span>
+										<span id="sBottomUnit">
+											家
+										</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="indexBox_content_imgList" style="overflow: hidden;">
+					<div class="one box" style="width: 25%;height: 350px;">
+						<div class="oneHover">
+							<div class="simgBox">
+								<img src="img/1@2x.png"/>
+							</div>
+							<p>企业物资采购解决方案</p>
+							<span>	目前阳光e购拥有国内燃气物资设备供应商近500余家。覆盖燃气相关物资13个大类，33个48个小类将近20000余个燃气物资产品。为国内燃气企业客户提供在线物资交易、集合竞价、定制比价、询比价，等交易服务。</span>
+						</div>
+					</div>
+					<div class="two box" style="width: 25%;height: 350px;">
+						<div class="oneHover">
+							<div class="simgBox">
+								<img src="img/2@2x.png"/>
+							</div>
+							<p>企业物资管理解决方案</p>
+							<span>	阳光e购拥有多年的物资管理经验沉淀，可以为国内中小型燃气企业提供专业的物资管理解决方案。包含供应商管理、物资标准管理、采购管理等。</span>
+						</div>
+					</div>
+					<div class="three box" style="width: 25%;height: 350px;">
+						<div class="oneHover">
+							<div class="simgBox">
+								<img src="img/3@2x.png"/>
+							</div>
+							<p>企业物资质量管理解决方案</p>
+							<span>	阳光e购针对国内燃气物资的质量与特点，结合互联网模式。为燃气企业提供自供应商资质管理、生产工艺管理、生产环节质量管理、交付质量管理等一系列围绕物资质量管理的解决方案。</span>
+						</div>
+					</div>
+					<div class="four box" style="width: 25%;height: 350px;">
+						<div class="oneHover">
+							<div class="simgBox">
+								<img src="img/4@2x.png"/>
+							</div>
+							<p>企业级采购SAAS应用</p>
+							<span>	阳光e购为企业提供针对燃气行业专业化运营管理SAAS系统，其中包含独立部署的采购管理系统、WMS仓储服务、工程可视化、运营监控管理系统、GIS系统、icome工作流、CRM。</span>
+						</div>
+					</div>
+				</div>
+				<div class="indexBox_content_moduleShow">
+					<div class="indexBox_content_moduleShow_productAndService">
+						<p class="nameTitle">产品与服务</p>
+						<p class="productDescription mt20">让用户从选择到决定，从应用到收效的完整流程更加快速，轻松，高效</p>
+						<div class="module mt20">
+							<ul class="moduleList skipOne">
+								<li>
+									<div class="topLeft" style="cursor: pointer;">
+										<img src="img/hb1.png"/>
+									</div>
+									<p class="topLeftWord" style="cursor: pointer;">
+										大型物资设备交易平台
+									</p>
+								</li>
+								<li style="margin: 0 0.5% 0 0.5%;">
+									<div class="topCenter" style="cursor: pointer;">
+										<img src="img/3-2@2x.png"/>
+									</div>
+									<div>
+										<span class="topCenterWord" style="cursor: pointer;float:left;font-size: 14px;color: #333333;padding: 15px 0 30px 0;">网格超市</span>
+										<a class="apply" href="javascript:;" class="ml10 fl">申请加盟</a>
+										<a class="joinBox fl" href="javascript:;">进入超市</a>
+									</div>
+								</li>
+								<li>
+									<div class="topRight" style="cursor: pointer;">
+										<img src="img/3-3@2x.png"/>
+									</div>
+									<p class="topRightWord" style="cursor: pointer;">
+										在线质量数据银行
+									</p>
+								</li>
+							</ul>
+							<ul class="moduleList skipTwo">
+								<li>
+									<div class="" style="cursor: pointer;">
+										<img src="img/3-4@2x.png"/>
+									</div>
+									<p style="cursor: pointer;">
+										物料主数据门户
+									</p>
+								</li>
+								<li style="margin: 0 0.5% 0 0.5%;">
+									<div class="" style="cursor: pointer;">
+										<img src="img/3-5@2x.png"/>
+									</div>
+									<p style="cursor: pointer;">
+										SAAS应用
+									</p>
+								</li>
+								<li>
+									<div class="" style="cursor: pointer;">
+										<img src="img/3-6@2x.png"/>
+									</div>
+									<p style="cursor: pointer;">
+										应用链金融
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="indexBox_content_moduleShow_newsAndInformation">
+						<p class="nameTitle">新闻与资讯</p>
+						<div class="module">
+							<ul class="moduleList">
+								<li>
+									<div class="exception online" title="阳光e购3.0平台正式上线">
+										<span id="leftSpan">
+											阳光e购3.0平台正式上线
+										</span>
+										<span id="rightSpan">
+											04-03
+										</span>
+									</div>
+									<div class="online" style="cursor: pointer;">
+										<img src="img/indexS-1.png"/>
+									</div>
+								</li>
+								<li style="margin: 0 2% 0 2%;">
+									<div class="exception joinNews" title="阳光e购网格超市诚邀加盟">
+										<span id="leftSpan">
+											阳光e购网格超市诚邀加盟
+										</span>
+										<span id="rightSpan">
+											04-03
+										</span>
+									</div>
+									<div class="joinNews" style="cursor: pointer;">
+										<img src="img/indexS-2.png"/>
+									</div>
+								</li>
+								<li>
+									<div class="wordList" title="阳光e购SAAS服务商接入成功">
+										<span id="leftSpan" class="leftSpan">
+											阳光e购SAAS服务商接入成功
+										</span>
+										<span id="rightSpan" >
+											04-03
+										</span>
+									</div>
+									<div class="wordList" title="阳光e购打造生产制造企业验厂、认证新模式">
+										<span id="leftSpan">
+											阳光e购打造生产制造企业验厂、认证新模式
+										</span>
+										<span id="rightSpan">
+											04-03
+										</span>
+									</div>
+									<div class="wordList" title="阳光优选与湖南银通科技有限公司达成战略合作">
+										<span id="leftSpan">
+											阳光优选与湖南银通科技有限公司达成战略合作
+										</span>
+										<span id="rightSpan">
+											04-03
+										</span>
+									</div>
+									<div class="wordList housing" title="住房城乡建设部关于发布行业标准CJJ/T250-2016、CJJ51-2016的公告">
+										<span id="leftSpan">
+											住房城乡建设部关于发布行业标准CJJ/T250-2016、CJJ51-2016的公告
+										</span>
+										<span id="rightSpan">
+											04-03
+										</span>
+									</div>
+									<div class="wordList penniless" title="一文看懂2018天然气大势">
+										<span id="leftSpan">
+											一文看懂2018天然气大势
+										</span>
+										<span id="rightSpan">
+											04-03
+										</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="homepage-footer">
+			
+			</div>
+			<script type="text/javascript">		
+//				
+//				//添加头部和尾部
+				$(function(){
+		            $("#homepage-head").load("head.html");
+		            $("#homepage-footer").load("foot.html");
+		        })
+//				//新闻与资讯跳转
+//				$('.wordList').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					window.location.href="http://localhost:8051/static/project/subpage/html-www/news.html?id="+index
+//				})
+//				$('.penniless').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					window.location.href="http://localhost:8051/static/project/subpage/html-www/pennilessNews.html"
+//				})
+//				$('.housing').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					window.location.href="http://localhost:8051/static/project/subpage/html-www/housingNews.html"
+//				})
+//				$('.online').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					window.location.href="http://localhost:8051/static/project/subpage/html-www/onLineNews.html"
+//				})
+//				$('.joinNews').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					window.location.href="http://localhost:8051/static/project/subpage/html-www/joinNews.html"
+//				})
+//				//产品与服务跳转
+//				$('.topLeft').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					window.location.href="http://localhost:8051/static/project/subpage/html-www/productService.html"
+//				})
+//				$('.topLeftWord').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					window.location.href="http://localhost:8051/static/project/subpage/html-www/productService.html"
+//				})
+//				$('.topCenter').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					window.location.href="http://localhost:8051/static/project/subpage/html-www/theGridSupermarket.html"
+//				})
+//				$('.topCenterWord').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					window.location.href="http://localhost:8051/static/project/subpage/html-www/theGridSupermarket.html"
+//				})
+//				$('.topRight').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					window.location.href="http://localhost:8051/static/project/subpage/html-www/bank.html"
+//				})
+//				$('.topRightWord').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					window.location.href="http://localhost:8051/static/project/subpage/html-www/bank.html"
+//				})
+//				//第二排服务跳转
+//				$('.skipTwo li').on('click',function() {
+//					console.log($(this).index())
+//					var index = $(this).index()
+//					if (index==0) {
+//						window.location.href="http://localhost:8051/static/project/subpage/html-www/material.html"
+//					} else if(index==1){
+//						window.location.href="http://localhost:8051/static/project/subpage/html-www/serveSAAS.html"
+//					}else{
+//						window.location.href="http://localhost:8051/static/project/subpage/html-www/financial.html"
+//					}
+//				})
+			</script>
+		</div>
+	</body>
+</html>
